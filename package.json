@@ -1,0 +1,35 @@
+{
+  "name": "file-share-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@aws-sdk/s3-presigned-post": "^3.735.0",
+    "@aws-sdk/s3-request-presigner": "^3.735.0",
+    "aws-sdk": "^2.1692.0",
+    "axios": "^1.7.9",
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
+    "busboy": "^1.6.0",
+    "connect-mongo": "^5.1.0",
+    "express-session": "^1.18.1",
+    "formidable": "^3.5.2",
+    "framer-motion": "^12.0.6",
+    "mongoose": "^8.9.5",
+    "next": "15.1.6",
+    "next-auth": "^4.24.11",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-icons": "^5.4.0",
+    "react-spinners": "^0.15.0"
+  },
+  "devDependencies": {
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1"
+  }
+}
